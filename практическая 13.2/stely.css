@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    padding: 20px;
+    height: 110vh;
+    background-color: #e1fafa;
+}
+
+.gallery_item {
+    width: 350px;
+    height: 200px;
+    border: 5px solid red;
+    margin-right: 10px;
+    /* спрятать все что выходит за предеолы блока */
+    overflow: hidden;
+    display: inline-block;
+
+
+}
+
+.gallery_img {
+    width: 100%;
+
+
+}
+
+.gallery {
+    min-height: 400px;
+    background-color: #d4cdad;
+    text-align: center;
+
+}
+
+.into {
+    background-color: #f4a460;
+    text-align: center;
+
+}
+
+.into__avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.into__img {
+    height: 100%;
+
+
+}
+
+.into__text {
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+
+}
